@@ -2,9 +2,9 @@ import pandas as pd
 import joblib
 from tkinter import *
 
-col = joblib.load('D:\งาน\KMITL\ปี3\ปี3เทอม1\ML\Project\EXE\COL.sav')
-std = joblib.load('D:\งาน\KMITL\ปี3\ปี3เทอม1\ML\Project\EXE\STD.sav')
-model = joblib.load('D:\งาน\KMITL\ปี3\ปี3เทอม1\ML\Project\EXE\MLP.sav')
+col = joblib.load('Project\Demo\COL.sav')
+std = joblib.load('Project\Demo\STD.sav')
+model = joblib.load('Project\Demo\MLP.sav')
 count = {}
 for colu in col:
     count[colu] = 0
