@@ -1,5 +1,5 @@
-# ML_Project
-โปรเจคนี้มีชื่อว่า "Is It Spam?" หรือ "อีเมลนี้เป็นสแปมหรือไม่?" ทำขึ้นเพื่อตรวจสอบว่าอีเมลนั้นๆ เป็นสแปมหรือไม่
+# Is it spam?
+โปรเจคนี้มีชื่อว่า "Is it spam?" หรือ "อีเมลนี้เป็นสแปมหรือไม่?" ทำขึ้นเพื่อตรวจสอบว่าอีเมลนั้นๆ เป็นสแปมหรือไม่
 โดยในโปรเจคนี้ จะใช้ dataset จาก kaggle 2 ชุด แบ่งเป็น train-test dataset และ validate dataset 
 และใช้ model จาก sklearn 2 ตัว คือ MLPClassifier และ RandomForestClassifier
 
