@@ -6,7 +6,7 @@
 
 สามารถทดลองใช้งานได้ใน Demo/IsItSpam.py โดยจะใช้ tkinter ในการแสดง GUI
 
-![alt text](https://github.com/tsunafield1/Is_it_spam/blob/main/Example.PNG)
+![alt text](https://github.com/tsunafield1/Is_it_spam/blob/main/Example.PNG?raw=true)
 
 ------------------------------------------------
 
