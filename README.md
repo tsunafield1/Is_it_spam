@@ -1,7 +1,14 @@
 # Is it spam?
 โปรเจคนี้มีชื่อว่า "Is it spam?" หรือ "อีเมลนี้เป็นสแปมหรือไม่?" ทำขึ้นเพื่อตรวจสอบว่าอีเมลนั้นๆ เป็นสแปมหรือไม่
-โดยในโปรเจคนี้ จะใช้ dataset จาก kaggle 2 ชุด แบ่งเป็น train-test dataset และ validate dataset 
+โดยในโปรเจคนี้ จะใช้ภาษา Python ในการวิเคราะห์ และประมวลผล
+มีการใช้ dataset จาก kaggle 2 ชุด แบ่งเป็น train-test dataset และ validate dataset 
 และใช้ model จาก sklearn 2 ตัว คือ MLPClassifier และ RandomForestClassifier
+
+สามารถทดลองใช้งานได้ใน Demo/IsItSpam.py โดยจะใช้ tkinter ในการแสดง GUI
+
+![alt text](https://github.com/tsunafield1/Is_it_spam/blob/main/Example.PNG)
+
+------------------------------------------------
 
 ใน Source จะมี 4 ไฟล์
 - Create_test_dataset.ipynb คือ ไฟล์ที่จะทำการแปลง validate dataset ให้อยู่ในรูปแบบเดียวกับ train-test dataset
